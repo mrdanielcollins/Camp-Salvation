@@ -1,0 +1,220 @@
+body
+{
+    background-color: white;
+}
+
+.fa-mountain
+{
+    font-size: 1.5rem;
+}
+
+A
+{
+    text-decoration: none !important;  
+}
+
+hr
+{
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: 65%;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.banner
+{
+    background-image: url('../images/MountainBanner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35rem;
+    padding-bottom: 18rem;
+    padding-top: 4rem;
+    margin: 0;
+    margin-top: 3.7rem;
+    
+    color: lightgray;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.icon-flex-container
+{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 13rem;
+}
+
+.home-content
+{
+    text-align: center;
+    padding-top: 6rem;
+    font-size: 6rem;
+    background-color: #b3a88c;
+}
+
+.home-mid-shrink
+{
+    display: none;
+}
+
+.icon-container
+{
+    width: 10rem;
+    height: 11rem;
+}
+
+
+
+.icon-container > p
+{
+    font-size: 1.5rem;
+    color: black;
+}
+
+.icon-text
+{
+    font-size: 1.1rem !important;
+    margin-left: -2rem;
+    margin-right: -2rem;
+}
+
+.icon-container > a
+{
+    color: #212529;
+}
+
+.icon
+{
+    background-color: #69633f;
+    width: 100% !important;
+    height: 10rem;
+    border-radius: 30%;
+    padding: 2rem;
+}
+
+.contact-container
+{
+    background-image: url('../images/wood.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-text
+{
+    color: lightgray;
+    font-size: 1.1rem;
+    padding-left: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    
+        text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.color2
+{
+    background-clip: #b3a88c;
+}
+
+.color3
+{
+    background-color: #69633f;
+}
+
+.color4
+{
+    background-color: #8d7a74;
+}
+
+.color5
+{
+    color: #714c39;
+}
+
+.icon:hover
+{
+    position: relative; 
+    top: -10px;
+}
+
+@media screen and (max-width: 600px)
+{
+    .icon-flex-container
+    {
+        display: block;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .icon-text
+    {
+        margin-left: -2rem;
+        margin-right: -2rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    .home-large
+    {
+        display: none;
+    }
+
+    .home-mid-shrink
+    {
+        display: inherit;
+    }
+
+
+    .icon-flex-container
+    {
+        margin-left: auto!important;
+        margin-right: auto!important;
+        padding-bottom: 0px !important;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    
+    .icon-container
+    {
+        width: auto;
+        height: auto;
+        margin-bottom: 5rem;
+    }
+    
+    .icon
+    {
+        height: 15rem!important;
+        width: 15rem!important;
+    }
+    
+    .icon-text
+    {
+        font-size: 1.5rem !important;
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+        
+    .icon-container > p
+    {
+        font-size: 2rem;
+        color: black;
+    }
+    
+    .banner
+    {
+        height: 40rem;
+        padding-top: 10rem;
+    }
+}

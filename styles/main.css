@@ -50,6 +50,35 @@ A
     to   { opacity: 1; }
 }
 
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadeopaque {
+    from { opacity: 0; }
+    to   { opacity: .6; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadeopaque {
+    from { opacity: 0; }
+    to   { opacity: .6; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadeopaque {
+    from { opacity: 0; }
+    to   { opacity: .6; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadeopaque {
+    from { opacity: 0; }
+    to   { opacity: .6; }
+}
+
 hr
 {
   display: block;
@@ -242,12 +271,30 @@ hr
     position: absolute;
     bottom: 0px;
     right: 0px;
-    opacity: .6;
+    opacity: 0;
     background-color: white;
     color: black;
     padding: 1%;
     width: 75%;
     font-size:1.2vw;
+  }
+
+  img:hover + .text-block
+  {
+    -webkit-animation: fadeopaque 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadeopaque 2s; /* Firefox < 16 */
+        -ms-animation: fadeopaque 2s; /* Internet Explorer */
+         -o-animation: fadeopaque 2s; /* Opera < 12.1 */
+            animation: fadeopaque 2s;
+  }
+
+  .text-block:hover
+  {
+    -webkit-animation: fadeopaque 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadeopaque 2s; /* Firefox < 16 */
+        -ms-animation: fadeopaque 2s; /* Internet Explorer */
+         -o-animation: fadeopaque 2s; /* Opera < 12.1 */
+            animation: fadeopaque 2s;
   }
 
   .text-block h4{
@@ -281,7 +328,10 @@ hr
 
     .text-block
     {
-        font-size:2vw;
+        font-size:3vw;
+        width: 100%;
+        padding: 0;
+        opacity: .8;
     }
 
     .text-block h4

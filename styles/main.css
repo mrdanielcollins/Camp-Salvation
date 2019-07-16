@@ -13,6 +13,22 @@ A
     text-decoration: none !important;  
 }
 
+#home-hr
+{
+    margin: auto;
+    margin-bottom: 2rem;
+    width: 90%;
+}
+
+#carouselExampleControls
+{
+    margin-bottom: 2rem;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: block!important;
+    color: black;
+}
+
 .banner p, .banner h1 {
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 2s; /* Firefox < 16 */
@@ -259,7 +275,6 @@ hr
 {
     width: 100%;
     height: 100%;
-    margin-bottom: 
 }
 
 .activity

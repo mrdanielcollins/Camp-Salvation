@@ -26,78 +26,129 @@
 <body>
 
   <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
-    <a class="navbar-brand" href="../index.html"><i class="fas fa-mountain"></i></a>
+    <a class="navbar-brand" href="../index.html">
+      <i class="fas fa-mountain"></i>
+    </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse justify-content-between" id="collapsibleNavbar">
       <ul class="navbar-nav">
-          <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                About Us
-              </a>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="mission.html">Mission</a>
-                <a class="dropdown-item" href="about.html">About Camp</a>
-              </div>
-          </li> 
         <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-              Camp Information
-            </a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="directions.html">Directions</a>
-              <a class="dropdown-item" href="registration.html">Registration</a>  
-            </div>
-        </li>  
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+            About Us
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="mission.html">Mission</a>
+            <a class="dropdown-item" href="about.html">About Camp</a>
+          </div>
+        </li>
         <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-              Support Us
-            </a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="donate.html">Donate</a>
-              <a class="dropdown-item" href="volunteer.html">Volunteer</a>
-            </div>
-        </li>   
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+            Camp Information
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="directions.html">Directions</a>
+            <a class="dropdown-item" href="registration.html">Registration</a>
+          </div>
+        </li>
         <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-              Questions
-            </a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="contact.html">Contact</a>
-              <a class="dropdown-item" href="faq.html">FAQ</a>
-            </div>
-        </li>  
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+            Support Us
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="donate.html">Donate</a>
+            <a class="dropdown-item" href="volunteer.html">Volunteer</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+            Questions
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="contact.html">Contact</a>
+            <a class="dropdown-item" href="faq.html">FAQ</a>
+          </div>
+        </li>
       </ul>
-    </div>  
+    </div>
   </nav>
 
   <div class="text-center banner">
     <div class="col-md-5 mx-auto">
       <h1 class="display-4 font-weight-normal">Getting Here</h1>
+      <p class="lead font-weight-normal">Located deep in the beautiful Colorado Rockies</p>
     </div>
     <div class="product-device box-shadow d-none d-md-block"></div>
     <div class="product-device product-device-2 box-shadow d-none d-md-block"></div>
   </div>
 
-  <div class="main-content border">
-      <h4>Our Activites</h4>
-      <hr>
+  <div class="main-content direction-content border">
+    <h4>Don't Get Lost On Your Way To Camp!</h4>
+    <br/>
+    <br/>
+    <div id="direction-description">
+      <p>Camp Salvation is located on one of the most beautiful places in Colorado, in the heart of the Rockies. Here it is
+        easy to see God’s brilliant, creative beauty.
+        <br/>
+        <br/> From Interstate 25 North of Walsenburg- Take the Highway 160 exit to LaVeta, about 12 miles from Walsenburg take
+        the Highway 12 turn, after about 30 miles once you go around North Lake, look for the Camp Salvation sign on the
+        Left side of the road.
+        <br/>
+        <br/> From Interstate 25 South of Trinidad – take exit 14a and follow Highway 12 past the High School and out of town,
+        Camp is about 40 miles from Trinidad. After passing Monument Lake, look for the Camp Salvation sign on the Right
+        side of the road.
+        <br/>
+        <br/>
+      </p>
+    </div>
+    <hr>
 
-      <div class="mapouter"><div class="gmap_canvas"><iframe width="608" height="327" id="gmap_canvas" src="https://maps.google.com/maps?q=17422%20County%20Road%2011%20%20Weston&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.org">free google map embed per day</a></div><style>.mapouter{position:relative;text-align:right;height:327px;width:608px;}.gmap_canvas {overflow:hidden;background:none!important;height:327px;width:608px;}</style></div>
+    <div id="direction-flex">
+
+      <div class="mapouter border">
+        <div class="gmap_canvas">
+          <iframe width="608" height="327" id="gmap_canvas" src="https://maps.google.com/maps?q=17422%20County%20Road%2011%20%20Weston&t=&z=13&ie=UTF8&iwloc=&output=embed"
+            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+          <a href="https://www.embedgooglemap.org">free google map embed per day</a>
+        </div>
+        <style>
+          .mapouter {
+            position: relative;
+            height: 327px;
+            width: 608px;
+          }
+
+          .gmap_canvas {
+            overflow: hidden;
+            background: none !important;
+            height: 327px;
+            width: 608px;
+          }
+        </style>
+      </div>
+      <div>
+        <h4 id="location">
+            17422 County Road 11
+            <br/><br/> Weston, CO 81091-9596
+        </h4>
+      </div>
+    </div>
+
 
   </div>
 
   <div class="contact-container">
     <div class="contact-text">
       <p>
-        <strong>Executive Board Contact Information Directors: Tim Muth (719) 469-5612<br/>
-        Jason Burns (719) 248-2805 <br/>
-        Secretary/Registration: Kendra England (719) 469-5390<br/>
+        <strong>Executive Board Contact Information Directors: Tim Muth (719) 469-5612
+          <br/> Jason Burns (719) 248-2805
+          <br/> Secretary/Registration: Kendra England (719) 469-5390
+          <br/>
       </p>
-          <hr size="5">
-    <p> 17422 County Road 11 <br/>
- Weston, CO 81091-9596</p>
+      <hr size="5">
+      <p> 17422 County Road 11
+        <br/> Weston, CO 81091-9596</p>
     </div>
   </div>
 </body>

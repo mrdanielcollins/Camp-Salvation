@@ -316,6 +316,23 @@ hr
     font-size:2vw;
   }
 
+  #direction-flex
+  {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .direction-content
+  {
+      padding-left: 8%;
+      padding-right: 8%;
+  }
+
+  #location
+  {
+      padding-top: 40%;
+  }
+
 @media screen and (max-width: 600px)
 {
     .icon-flex-container
@@ -408,5 +425,10 @@ hr
     {
         height: 40rem;
         padding-top: 10rem;
+    }
+
+    #direction-flex
+    {
+      display: block;
     }
 }

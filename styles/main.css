@@ -1,7 +1,9 @@
 body
 {
     background-color: white;
+    font-family: 'Cabin Sketch', cursive;   
 }
+
 
 .fa-mountain
 {
@@ -116,6 +118,7 @@ hr
     padding-top: 4rem;
     margin: 0;
     margin-top: 3.7rem;
+    font-family: 'Courgette', cursive;
     
     color: lightgray;
     text-shadow:
@@ -123,6 +126,11 @@ hr
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;
+}
+
+.banner h1
+{
+    font-size: 7rem;
 }
 
 .shadow {
@@ -146,7 +154,7 @@ hr
 .home-content
 {
     text-align: center;
-    padding-top: 6rem;
+    padding-top: 2rem;
     font-size: 6rem;
     background-color: #b3a88c;
 }

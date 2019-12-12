@@ -15,6 +15,59 @@ A
     text-decoration: none !important;  
 }
 
+
+.carousel 
+{
+    display: table;
+    vertical-align: middle
+}
+
+.Flex-Container
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.Flex-Container hr
+{
+    display: none;
+}
+
+.email
+{   
+    margin:auto;
+    width: 100%;
+    display: block;
+}
+
+.form-control
+{
+    width: 70%!important;
+    margin:auto;
+}
+
+
+#newsletter-box
+{
+    border-right-style: solid;
+    border-color: black;
+    border-width: 2px;
+    margin: auto;
+    width: 100%;
+}
+
+#donate-box
+{
+    width: 100%;
+}
+
 #home-hr
 {
     margin: auto;
@@ -356,7 +409,6 @@ hr
         margin-right: -2rem;
     }
 
-
 }
 
 @media screen and (max-width: 1000px) {
@@ -364,6 +416,27 @@ hr
     .activity-flex-container
     {
         display: block;
+    }
+
+    .Flex-Container
+    {   
+        display: block;
+    }
+    #donate-box
+    {
+        margin-top: 3rem;;
+    }
+
+    #newsletter-box
+    {
+        padding-bottom: 3rem;        
+    }
+
+    .Flex-Container hr
+    {
+        display: block;
+        margin: auto;
+        width: 60%;
     }
 
     .text-block
@@ -439,4 +512,5 @@ hr
     {
       display: block;
     }
+
 }

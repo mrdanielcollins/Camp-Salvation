@@ -394,6 +394,12 @@ hr
       padding-top: 40%;
   }
 
+  .raise:hover
+  {
+      position: relative; 
+      top: -5px;
+  }
+
 @media screen and (max-width: 600px)
 {
     .icon-flex-container

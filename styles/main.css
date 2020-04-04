@@ -305,11 +305,6 @@ hr
     1px 1px 0 #000;
 }
 
-.mission-text
-{
-    margin-bottom: 5rem;
-}
-
 .color2
 {
     background-clip: #b3a88c;
@@ -411,6 +406,53 @@ hr
       top: -5px;
   }
 
+  .card-deck
+  {
+      margin-top: 2rem;
+  }
+
+  #faith-box 
+  {
+      background-color: #69633f;
+      color: lightgray;
+
+      text-shadow:
+      -1px -1px 0 gray,
+      1px -1px 0 gray,
+      -1px 1px 0 gray,
+      1px 1px 0 gray;
+      text-align: center;
+      padding-top: 2rem;
+
+      border-radius: 6px 6px 6px 6px;
+      -moz-border-radius: 6px 6px 6px 6px;
+      -webkit-border-radius: 6px 6px 6px 6px;
+      border: 0px solid #000000;
+  }
+
+  #faith-box hr
+{
+    margin: auto;
+    width: 90%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border-width: 2px;
+}
+
+  #faith-box p
+  {
+    margin-bottom: 0rem;
+    width: 50%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  #faith-flex
+  {
+    display: flex;
+    justify-content: space-between;
+  }
+
 @media screen and (max-width: 600px)
 {
     .icon-flex-container
@@ -418,6 +460,19 @@ hr
         display: block;
         padding-left: 10%;
         padding-right: 10%;
+    }
+
+    #faith-flex
+    {
+        display: block;
+    }
+
+    #faith-box p
+    {
+      margin-bottom: 0rem;
+      width: 100%;
+      padding-left: 1rem;
+      padding-right: 1rem;
     }
 
     .icon-text

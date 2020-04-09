@@ -388,6 +388,56 @@ hr
     font-size:2vw;
   }
 
+  #schedule-class
+  {
+      background-color: #69633f;
+      position: relative;
+      text-align: center;
+      color: lightgray;
+      text-shadow:
+      -1px -1px 0 gray,
+      1px -1px 0 gray,
+      -1px 1px 0 gray,
+      1px 1px 0 gray;
+
+      border-radius: 6px 6px 6px 6px;
+      -moz-border-radius: 6px 6px 6px 6px;
+      -webkit-border-radius: 6px 6px 6px 6px;
+      border: 0px solid #000000;
+  }
+
+  #schedule-class hr
+  {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+  }
+
+  .schedule-item
+  {
+    margin-bottom: 1rem;
+    padding-bottom: .5rem;
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: gray;
+  }
+
+  
+  .schedule-item svg
+  {
+      display: block;
+      font-size: 3rem;
+  }
+
+  .list-group-item
+  {
+    background-color: #69633f!important;
+  }
+
   #direction-flex
   {
     display: flex;
@@ -503,13 +553,23 @@ hr
         margin-top: 1.3rem;
     }
 
+
+    .schedule-item svg
+    {
+        display: none;
+    }
+
+    .schedule-item
+    {
+        font-size: 1.5rem;
+    }
 }
 
 @media screen and (max-width: 1000px) {
 
     .banner h1
 {
-    font-size: 3rem;
+    font-size: 5rem;
 }
 
     .activity-flex-container
@@ -540,14 +600,15 @@ hr
 
     .text-block
     {
-        font-size:3vw;
+        font-size:4vw;
         width: 100%;
         padding: .5;
+        background: rgba(255, 255, 255, 0.3);
     }
 
     .text-block h4
     {
-        font-size:4vw;
+        font-size:5vw;
     }
 
       .activity

@@ -442,6 +442,9 @@ hr
   {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding-right: 5rem;
+    padding-left: 5rem;
   }
 
   .direction-content
@@ -450,9 +453,10 @@ hr
       padding-right: 8%;
   }
 
-  #location
+  .map-frame
   {
-      padding-top: 40%;
+      width: 25rem;
+      height: 15rem;
   }
 
   .raise:hover
@@ -680,6 +684,18 @@ hr
     #direction-flex
     {
       display: block;
+      padding-right: 0!important;
+      padding-left: 0!important;
     }
 
+    #location
+    {
+        padding-top: 2rem;
+    }
+
+    .map-frame
+    {
+        max-width:100%;
+        height:auto;
+    }
 }

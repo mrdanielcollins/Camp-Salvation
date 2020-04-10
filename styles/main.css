@@ -568,9 +568,14 @@ hr
 @media screen and (max-width: 1000px) {
 
     .banner h1
-{
-    font-size: 5rem;
-}
+    {
+        font-size: 5rem;
+    }
+
+    .banner p
+    {
+        margin-top: 14rem;
+    }   
 
     .activity-flex-container
     {

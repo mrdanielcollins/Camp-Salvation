@@ -604,6 +604,11 @@ hr
         width: 100%;
         padding: .5;
         background: rgba(255, 255, 255, 0.3);
+        text-shadow:
+        -1px -1px 0 gray,
+        1px -1px 0 gray,
+        -1px 1px 0 gray,
+        1px 1px 0 gray;
     }
 
     .text-block h4

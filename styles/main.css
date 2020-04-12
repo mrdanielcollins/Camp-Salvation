@@ -96,6 +96,14 @@ A
     color: black;
 }
 
+#nav-title
+{
+    color: gray;
+    margin-bottom: 0px;
+    margin-left: 1rem;
+    margin-right: 2rem;
+}
+
 .banner p, .banner h1 {
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 2s; /* Firefox < 16 */
@@ -565,6 +573,12 @@ hr
 
     .schedule-item
     {
+        font-size: 1.5rem;
+    }
+    
+    #nav-title
+    {
+        margin-right: 1rem;
         font-size: 1.5rem;
     }
 }

@@ -104,6 +104,13 @@ A
     margin-right: 2rem;
 }
 
+#nav-logo
+{
+    width: 10rem;
+    color: white;
+    filter: invert(1);
+}
+
 .banner p, .banner h1 {
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 2s; /* Firefox < 16 */
@@ -576,10 +583,9 @@ hr
         font-size: 1.5rem;
     }
     
-    #nav-title
+    #nav-logo
     {
-        margin-right: 1rem;
-        font-size: 1.5rem;
+        width: 5rem;
     }
 }
 
@@ -711,5 +717,12 @@ hr
     {
         max-width:100%;
         height:auto;
+    }
+
+    #nav-title
+    {
+        margin-right: 1rem;
+        margin-left: 0rem;
+        font-size: 1.5rem;
     }
 }

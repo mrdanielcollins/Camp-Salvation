@@ -17,8 +17,12 @@ Git Flow For Making Changes:
 Git Flow For Integrating Changes:
 1. On home page click "new pull request"
 2. Select "Base:Integration" and Compare:<BRANCH_NAME>
+3. Add message detail about the ticket
+4. Wait for ticket to be aproved and merged in
+5. Address any comments on peer review
 
 Ticket Flow:
 1. Go to "https://trello.com/b/HkVdGavU/camp-salvation"
 2. Select a ticket from "Selected For Development" and move to "In Progress"
-3. Once a ticket is completed 
+3. Once a ticket is completed and pull requested created, move ticket to "Peer Review"
+4. Once comments have been addressed and pull request approved, move ticket to "Complete"

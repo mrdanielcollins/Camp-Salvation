@@ -3,8 +3,9 @@ Camp Salvation Website
 
 Getting Started:
 1. Clone Repo
-2. In root directory run command to start "node app.js"
-3. In browser go to "http://localhost:3000/"
+2. In root directory run command "sudo npm install --save"
+3. In root directory run command to start "node app.js"
+4. In browser go to "http://localhost:3000/"
 
 Git Flow For Making Changes:
 1. Create and checkout branch "git branch -b <BRANCH_NAME>"
@@ -17,4 +18,7 @@ Git Flow For Integrating Changes:
 1. On home page click "new pull request"
 2. Select "Base:Integration" and Compare:<BRANCH_NAME>
 
-Tickets:
+Ticket Flow:
+1. Go to "https://trello.com/b/HkVdGavU/camp-salvation"
+2. Select a ticket from "Selected For Development" and move to "In Progress"
+3. Once a ticket is completed 

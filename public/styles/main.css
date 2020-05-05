@@ -282,6 +282,15 @@ hr
     position: relative;
 }
 
+#signup-section
+{
+    padding: 2rem;
+    position: relative;
+    background-color: #b3a88c;
+    text-align: center;
+    border: solid white .1rem;
+}
+
 
 .position
 {  
@@ -762,7 +771,7 @@ hr
 
     #nav-title
     {
-        margin-right: 1rem;
+        margin-right: 0rem;
         margin-left: 0rem;
         font-size: 1.5rem;
     }

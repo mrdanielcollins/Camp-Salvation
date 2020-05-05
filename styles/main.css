@@ -253,6 +253,47 @@ hr
     position: relative;
 }
 
+#volunteer-text
+{
+    background-color: #cfd3d6;
+    position: relative;
+    text-align: center;
+    font-size: 1.4rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: solid black;
+
+}
+
+#volunteer-text hr
+{
+    margin: auto;
+    width: 20%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: #b3a88c;
+}
+
+#position-section
+{
+    background-color: white;
+    position: relative;
+}
+
+
+.position
+{  
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    position: relative;
+    border-bottom: solid lightgray;
+}
+
 .main-content
 {
     text-align: center;

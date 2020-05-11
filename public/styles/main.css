@@ -291,6 +291,23 @@ hr
     border: solid white .1rem;
 }
 
+#faq-contact
+{
+    padding: 2rem;
+    position: relative;
+    background-color: white;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 2rem;
+    border-left:#343a40 solid;
+}
+
+#faq-contact-btn
+{
+    color: white;
+}
+
 
 .position
 {  
@@ -309,6 +326,17 @@ hr
     padding-top: 6rem;
     background-color: #b3a88c;
     padding-bottom: 6rem;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: relative;
+}
+
+.faq-content
+{
+    text-align: center;
+    padding-top: 3rem;
+    background-color: #b3a88c;
+    padding-bottom: 2rem;
     padding-left: 5%;
     padding-right: 5%;
     position: relative;
@@ -533,6 +561,38 @@ hr
   .card-deck
   {
       margin-top: 2rem;
+  }
+
+  .faq-card-header
+  {
+      border-left:#343a40 solid;
+  }
+
+  .faq-card-body
+  {
+      font-size: 1.2rem;
+  }
+
+  .faq-card
+  {
+      background-color: #b3a88c;
+      border: none;
+  }
+
+  .faq-btn
+  {
+      color: #343a40;
+      font-size: 2rem;
+  }
+
+  .faq-btn:hover
+  {
+      color: black;
+      text-decoration: none;
+  }
+  .faq-btn:focus
+  {
+    text-decoration: none;
   }
 
   #faith-box 

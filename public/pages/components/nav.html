@@ -13,6 +13,7 @@
     <!-- Drop Down menue navabar-->
     <div class="collapse navbar-collapse justify-content-between" id="collapsibleNavbar">
         <ul class="navbar-nav ml-auto mr-5">
+
             <!-- About Sections-->
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
@@ -55,6 +56,40 @@
                     <a class="dropdown-item" href="/pages/faq.html">FAQ</a>
                 </div>
             </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="loginDropDown" data-toggle="modal"  data-target="#myModal">
+                    Staff Login
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" id="AccountBtn" href="#">Account</a>
+                    <a class="dropdown-item" id="logOutBtn" href="#">Log Out</a>
+                </div>
+            </li>
         </ul>
     </div>
 </nav>
+
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header d-block">
+                <h3 class="text-center">Camp Salavation Staff Login</h3>
+            </div>
+            <div class="modal-body">
+                <h5 class="text-center">Email</h5>
+                <input id="email" type="email" class="form-control" placeholder="name@example.com">
+                <h5 class="text-center">Password</h5>
+                <input id="password" type="password" class="form-control">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button id="login-btn" type="button" class="btn btn-secondary">Login</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script defer src="/scripts/firebaseController.js"></script>

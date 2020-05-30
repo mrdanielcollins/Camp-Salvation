@@ -43,19 +43,27 @@
     <div class="product-device product-device-2 box-shadow d-none d-md-block"></div>
   </div>
 
-  <div class="main-content">
-      <form method="GET" action="mailto:mrdanieljcollins@gmail.com" enctype="text/plain">
-        <div>Subject</div>
-        <input type="text" name="subject" />
-    
-        <div>Message</div>
-        <textarea name="body"></textarea>
-    
-        <br/>
-        <input type="submit" value="Send" />
+  <div class="main-content border">
+    <h4>Have questions? Want to find out how you can get involed?
+      Please contact us, and would love to answer any questions!
+    </h4>
+    <form id="contactForm">
+      <div class="form-group mt-5">
+        <h5 class="text-center">Email address</h5>
+        <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Enter email" required>
+      </div>
+      <div class="form-group">
+        <h5 class="text-center">Subject</h5>
+        <input type="text" class="form-control" placeholder="Enter Subject" required>
+      </div>
+      <div>
+        <h5 class="text-center">Question</h5>
+        <textarea class="form-control" rows="5" placeholder="Enter Question" required></textarea>
+      </div>
+      <button class="btn btn-secondary mt-3">Send</button>
     </form>
   </div>
-  
+
   <!-- Dynamicaly loaded donate component-->
   <div id="comp-donate"></div>
 

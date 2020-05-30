@@ -24,11 +24,9 @@ function toggleSignIn() {
         var email = document.getElementById('email').value;
         var password = document.getElementById('password').value;
         if (email.length < 1) {
-            alert('Please enter an email address.');
             return;
         }
         if (password.length < 1) {
-            alert('Please enter a password.');
             return;
         }
         // Sign in with email and pass.

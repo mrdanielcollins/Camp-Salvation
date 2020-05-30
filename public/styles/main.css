@@ -697,6 +697,11 @@ hr
     {
         width: 5rem;
     }
+
+    #contactForm .form-control
+    {
+        width: 100%!important;
+    }
 }
 
 @media screen and (max-width: 1000px) {

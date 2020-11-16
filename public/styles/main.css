@@ -215,7 +215,6 @@ hr
     position: fixed;
     left: 0px;
     right: 0px;
-    z-index: 0;
 }
 .banner p
 {
@@ -223,7 +222,6 @@ hr
     margin-top: 8rem;
     left: 0px;
     right: 0px;
-    z-index: 0;
 }
 
 .shadow {
@@ -398,21 +396,23 @@ hr
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    text-align: center;
+    display: flex;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
 }
 
 .contact-text
 {
     color: lightgray;
     font-size: 1.1rem;
-    padding-left: 3rem;
-    padding-top: 5rem;
-    padding-bottom: 3rem;
     
         text-shadow:
     -1px -1px 0 #000,
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;
+    margin: auto;
 }
 
 .color2
@@ -640,7 +640,7 @@ hr
 
   .date-box
   {
-      display: flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     padding-right: 5rem;
@@ -650,6 +650,11 @@ hr
   .date-box-descr
   {
     padding-right: 5rem;
+  }
+
+  .site-item
+  {
+      color: black;
   }
 
 @media screen and (max-width: 600px)
@@ -717,6 +722,11 @@ hr
         width: 100%!important;
     }
 
+
+    .contact-container
+    {
+        display: block;
+    }
 
 }
 

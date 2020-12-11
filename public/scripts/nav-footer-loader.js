@@ -1,6 +1,6 @@
     // Dynamically loaded components
     $( document ).ready(function () {
-        $('#comp-nav').load('/pages/components/nav.html');
-        $('#comp-donate').load('/pages/components/donate.html');
-        $('#comp-foot').load('/pages/components/foot.html');
+        $('#comp-nav').load('/public/pages/components/nav.html');
+        $('#comp-donate').load('/public/pages/components/donate.html');
+        $('#comp-foot').load('/public/pages/components/foot.html');
       });

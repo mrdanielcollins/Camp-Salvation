@@ -669,8 +669,23 @@ hr
       color: black;
   }
 
+  #pricing-items
+  {
+    display:flex; 
+    justify-content: space-between; 
+    padding-left: 5%; 
+    padding-right: 5%;
+  }
+
 @media screen and (max-width: 600px)
 {
+
+
+    #pricing-items
+    {
+      display:block; 
+    }
+
     .icon-flex-container
     {
         display: block;

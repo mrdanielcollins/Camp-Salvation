@@ -318,6 +318,15 @@ hr
     border-bottom: solid lightgray;
 }
 
+#pricing
+{
+    background-color:lightgray;
+    text-align: center; 
+    position: relative;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
 .main-content
 {
     text-align: center;
@@ -397,9 +406,8 @@ hr
     background-size: cover;
     position: relative;
     text-align: center;
-    display: flex;
     padding-top: 5rem;
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
 }
 
 .contact-text
@@ -595,16 +603,15 @@ hr
     text-decoration: none;
   }
 
+  .mission-text
+  {
+      font-size: 1.5rem;
+  }
+
   #faith-box 
   {
-      background-color: #69633f;
-      color: lightgray;
+      background-color: lightgray;
 
-      text-shadow:
-      -1px -1px 0 gray,
-      1px -1px 0 gray,
-      -1px 1px 0 gray,
-      1px 1px 0 gray;
       text-align: center;
       padding-top: 2rem;
 

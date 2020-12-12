@@ -50,17 +50,17 @@
     <form id="contactForm">
       <div class="form-group mt-5">
         <h5 class="text-center">Email address</h5>
-        <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Enter email" required>
+        <input id="email-data" type="email" class="form-control" aria-describedby="emailHelp" placeholder="Enter email" required>
       </div>
       <div class="form-group">
         <h5 class="text-center">Subject</h5>
-        <input type="text" class="form-control" placeholder="Enter Subject" required>
+        <input id="subject-data" type="text" class="form-control" placeholder="Enter Subject" required>
       </div>
       <div>
         <h5 class="text-center">Question</h5>
-        <textarea class="form-control" rows="5" placeholder="Enter Question" required></textarea>
+        <textarea id="content-data" class="form-control" rows="5" placeholder="Enter Question" required></textarea>
       </div>
-      <button class="btn btn-secondary mt-3">Send</button>
+      <button class="btn btn-secondary mt-3" onclick="sendEmail(document.getElementById('email-data').value, document.getElementById('subject-data').value, document.getElementById('content-data').value);">Send</button>
     </form>
   </div>
 

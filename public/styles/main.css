@@ -519,6 +519,7 @@ hr
       -moz-border-radius: 6px 6px 6px 6px;
       -webkit-border-radius: 6px 6px 6px 6px;
       border: 0px solid #000000;
+      font-size: 2vw;
   }
 
   #schedule-class hr
@@ -545,7 +546,7 @@ hr
   .schedule-item svg
   {
       display: block;
-      font-size: 3rem;
+      font-size: 4vw;
   }
 
   .list-group-item
@@ -558,8 +559,8 @@ hr
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-right: 5rem;
-    padding-left: 5rem;
+    padding-right: 10vw;
+    padding-left: 10vw;
   }
 
   .direction-content
@@ -570,8 +571,8 @@ hr
 
   .map-frame
   {
-      width: 25rem;
-      height: 15rem;
+      width: 30vw;
+      height: 20vw;
   }
 
   .raise:hover
@@ -690,6 +691,7 @@ hr
 {
 
 
+
     #pricing-items
     {
       display:block; 
@@ -764,9 +766,29 @@ hr
         display: block;
     }
 
+    #schedule-class
+    {
+        font-size: 2rem;
+    }
+
 }
 
 @media screen and (max-width: 1000px) {
+
+    p
+    {
+        font-size: 2rem !important;
+    }
+
+    .schedule-item svg
+    {
+        font-size: 4rem;
+    }
+
+    #schedule-class
+    {
+        font-size: 2rem;
+    }
 
     .mission-text
     {
@@ -780,7 +802,7 @@ hr
 
     h1 
     {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     .banner h1
@@ -908,8 +930,8 @@ hr
 
     .map-frame
     {
-        max-width:100%;
-        height:auto;
+        width:30rem;
+        height:20rem;
     }
 
     #nav-title

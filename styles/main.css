@@ -4,7 +4,15 @@ body
     font-family: 'Cabin Sketch', cursive;   
 }
 
+h1
+{
+    font-size: 3vw;
+}
 
+p
+{
+    font-size: 2vw !important;
+}
 .fa-mountain
 {
     font-size: 1.5rem;
@@ -611,7 +619,7 @@ hr
 
   .mission-text
   {
-      font-size: 1.5rem;
+      font-size: 2vw;
   }
 
   #faith-box 
@@ -760,6 +768,21 @@ hr
 
 @media screen and (max-width: 1000px) {
 
+    .mission-text
+    {
+        font-size: 1.6rem !important;
+    }
+
+    #faith-box p
+    {
+        font-size: 1.6rem !important;
+    }
+
+    h1 
+    {
+        font-size: 2rem;
+    }
+
     .banner h1
     {
         font-size: 5rem;
@@ -768,6 +791,7 @@ hr
     .banner p
     {
         margin-top: 14rem;
+        font-size: 1.6rem !important;
     }   
 
     .activity-flex-container
@@ -853,14 +877,14 @@ hr
     
     .icon-text
     {
-        font-size: 1.5rem !important;
+        font-size: 1.6rem !important;
         margin-left: 0rem;
         margin-right: 0rem;
     }
         
     .icon-container > p
     {
-        font-size: 2rem;
+        font-size: 2rem !important;
         color: black;
     }
     

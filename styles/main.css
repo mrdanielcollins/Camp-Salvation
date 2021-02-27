@@ -689,7 +689,7 @@ hr
   
   .modal-dialog
     {
-        overflow-y: scroll !important;
+        overflow-y: initial !important;
         max-width: 100%;
         width: 75%;
         margin-top: 10rem;
@@ -703,7 +703,7 @@ hr
     .modal-body
     {
     height: 35vw;
-    overflow-y: scroll;
+    overflow-y: auto;
     font-size: 2vw;
     }                   
 

@@ -208,6 +208,8 @@
   <script>
     $('.modal-body').scroll(function () {
       var disable = $('#agreement').height() != ($(this).scrollTop() + $(this).height());
+      console.log($('#agreement').height());
+      console.log(($(this).scrollTop() + $(this).height()))
       $('#download-btn').prop('disabled', disable);
     });
   </script>

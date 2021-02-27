@@ -686,6 +686,26 @@ hr
     padding-left: 5%; 
     padding-right: 5%;
   }
+  
+  .modal-dialog
+    {
+        overflow-y: scroll !important;
+        max-width: 100%;
+        width: 75%;
+        margin-top: 10rem;
+    }
+
+    .modal-header h1
+    {
+        width: 100%;
+    }
+
+    .modal-body
+    {
+    height: 35vw;
+    overflow-y: scroll;
+    font-size: 2vw;
+    }                   
 
 @media screen and (max-width: 600px)
 {
@@ -774,6 +794,24 @@ hr
 }
 
 @media screen and (max-width: 1000px) {
+
+    .modal-dialog
+    {
+        margin: 0px;
+        margin-top: .5rem;
+        width: 100%;
+    }
+
+    .modal-header h1
+    {
+        font-size: 2rem;
+    }
+
+    .modal-body
+    {
+    height: 15rem;
+    font-size: 1.5rem;
+    } 
 
     p
     {

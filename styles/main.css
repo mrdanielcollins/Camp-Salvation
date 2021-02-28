@@ -275,8 +275,6 @@ hr
     padding-left: 2rem;
     padding-right: 2rem;
     padding-bottom: 2rem;
-    border-bottom: solid black;
-
 }
 
 #volunteer-text hr
@@ -300,7 +298,7 @@ hr
     position: relative;
     background-color: #b3a88c;
     text-align: center;
-    border: solid white .1rem;
+    border-bottom: solid black;
 }
 
 #faq-contact

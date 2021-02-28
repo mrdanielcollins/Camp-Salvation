@@ -207,9 +207,10 @@
 
   <script>
     $('.modal-body').scroll(function () {
-      var disable = $('#agreement').height() != ($(this).scrollTop() + $(this).height());
-      console.log($('#agreement').height());
-      console.log(($(this).scrollTop() + $(this).height()))
+      const padding = 100;
+      var boxHeight = $('#agreement').height() - padding;
+      var bottomHeight = ($(this).scrollTop() + $(this).height());
+      var disable = boxHeight > bottomHeight;
       $('#download-btn').prop('disabled', disable);
     });
   </script>

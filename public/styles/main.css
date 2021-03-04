@@ -663,13 +663,6 @@ hr
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-right: 5rem;
-    padding-left: 5rem;
-  }
-
-  .date-box-descr
-  {
-    padding-right: 5rem;
   }
 
   .site-item
@@ -798,6 +791,18 @@ hr
 
 @media screen and (max-width: 1000px) {
 
+
+    #calender
+    {
+        width: 80vw !important;
+        height: 60vw !important;
+    }
+
+    #check-in-img
+    {
+        width: 70vw !important;
+        height: 50vw !important;
+    }
 
     .contact-flex
     {
@@ -995,8 +1000,9 @@ hr
     }
     .date-box-descr
     {
-      padding-right: 0%;
       padding-top: 1rem;
+      padding-left: 0px !important;
+      padding-right: 0px !important;
     }
 
 }

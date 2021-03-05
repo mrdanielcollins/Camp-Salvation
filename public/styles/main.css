@@ -492,7 +492,6 @@ hr
     background: rgba(255, 255, 255, 0.6);
     color: black;
     padding: 1%;
-    width: 75%;
     font-size:1.2vw;
     border-radius: 10%;
   }
@@ -896,7 +895,6 @@ hr
 
     .text-block
     {
-        font-size:4vw;
         width: 100%;
         padding: .5;
         background: rgba(255, 255, 255, 0.3);
@@ -907,6 +905,11 @@ hr
         1px 1px 0 gray;
     }
 
+    .text-block p
+    {
+        font-size: 5vw !important;
+    }
+
     .text-block h4
     {
         font-size:5vw;
@@ -915,6 +918,7 @@ hr
       .activity
     {
         margin-bottom: 2rem;
+        width: 100% !important;
     }   
 
     .home-large

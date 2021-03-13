@@ -23,6 +23,11 @@ A
     text-decoration: none !important;  
 }
 
+button
+{
+    font-size: 3vw !important;
+}
+
 
 .carousel 
 {
@@ -705,8 +710,6 @@ hr
 @media screen and (max-width: 600px)
 {
 
-
-
     #pricing-items
     {
       display:block; 
@@ -790,6 +793,10 @@ hr
 
 @media screen and (max-width: 1000px) {
 
+    button
+    {
+        font-size: 3rem !important;
+    }
 
     #calender
     {

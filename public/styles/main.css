@@ -203,11 +203,12 @@ hr
 
 .banner
 {
-    background-image: url('../images/MountainBanner.jpg');
+    background-image: url('https://lh3.googleusercontent.com/DN19FgesDyFWsd5QFgX6gNaNmQr_MSVs4NW5ipsfqH9EmS2jBzJHgahkuzS13yTdc-x3lO1zTiZRhp5k2swJW2XZfpUjp2j0O5p2pNQKjnu6Sr1IRPIa98FS0n6PnKFj4x8TAqaKYg=w2400');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: bottom;
     background-attachment: fixed;
-    height: 35rem;
+    height: 30rem;
     padding-bottom: 18rem;
     padding-top: 4rem;
     margin: 0;
@@ -225,6 +226,28 @@ hr
     -moz-user-select: none; /* Firefox */
     -ms-user-select: none; /* IE10+/Edge */
     user-select: none; /* Standard */
+}
+
+.check-in
+{
+    background-image: url('https://lh3.googleusercontent.com/m-CdgdFxA_7uRvdoOyTZ22x5W3-cP-Nff70rW9hoiUPGfnjAUffdHvsF-SWEWH_VoQPKBfBapErDhagpJgGSJPynkD7r-aT8FwwXds3hbhizFClUgMKPFY88H0mTsA-HFZHrAQkgfQ=w2400');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 40vw;
+    padding-top: 7rem;
+    font-family: 'Courgette', cursive;
+    
+    color: lightgray;
+    text-shadow:-4px 1px 18px #000, 1px -1px 16px #000, 6px 18px 16px #000, 16px 15px 20px #000;
+
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+    position: relative;
+
 }
 
 .banner h1
@@ -709,7 +732,6 @@ hr
 
 @media screen and (max-width: 600px)
 {
-
     #pricing-items
     {
       display:block; 
@@ -789,6 +811,11 @@ hr
         font-size: 2rem;
     }
 
+    .check-in
+    {
+        height: 70rem !important;
+    }
+
 }
 
 @media screen and (max-width: 1000px) {
@@ -796,6 +823,12 @@ hr
     button
     {
         font-size: 3rem !important;
+    }
+
+    .check-in
+    {
+        height: 40rem;
+        padding-top: 1rem;
     }
 
     #calender
@@ -975,7 +1008,7 @@ hr
     
     .banner
     {
-        height: 40rem;
+        height: 35rem;
         padding-top: 10rem;
     }
 

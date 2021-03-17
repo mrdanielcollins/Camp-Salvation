@@ -28,6 +28,11 @@ A
     font-size: 3vw !important;
 }
 
+.card-li
+{
+    font-size: 1.8vw !important;
+}
+
 
 .carousel 
 {
@@ -611,6 +616,13 @@ hr
       margin-top: 2rem;
   }
 
+  .single-card
+  {
+    width: 50%; 
+    margin: auto; 
+    margin-top: 2rem;
+  }
+
   .faq-card-header
   {
       border-left:#343a40 solid;
@@ -816,6 +828,13 @@ hr
         height: 70rem !important;
     }
 
+    .single-card
+    {
+      width: 100%; 
+      margin: auto; 
+      margin-top: 2rem;
+    }
+
 }
 
 @media screen and (max-width: 1000px) {
@@ -823,6 +842,11 @@ hr
     .big-btn
     {
         font-size: 3rem !important;
+    }
+
+    .card-li
+    {
+        font-size: 1.2rem !important;
     }
 
     .check-in

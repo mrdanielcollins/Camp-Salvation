@@ -963,10 +963,14 @@ hr
         padding: .5;
         background: rgba(255, 255, 255, 0.3);
         text-shadow:
-        -1px -1px 0 gray,
-        1px -1px 0 gray,
-        -1px 1px 0 gray,
-        1px 1px 0 gray;
+        -4px 7px 11px #212529, 1px -1px 0 #212529, -1px 1px 0 black, 3px 3px 10px black;
+        color: white;
+    }
+
+    .text-block bold 
+    {
+        text-shadow:
+        1px 1px 3px #adb5bd, 1px 1px 0 #adb5bd, 1px 1px 0 #adb5bd, 1px 1px 0px #adb5bd;
     }
 
     .text-block p

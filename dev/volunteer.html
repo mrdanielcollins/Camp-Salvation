@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<!-- START OF HEAD-->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Camp Salvation</title>
+
+  <!-- CDN Stylesheets -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Courgette&display=swap" rel="stylesheet">
+
+  <!-- Custom styles-->
+  <link href="../styles/main.css" rel="stylesheet">
+
+  <!-- CDN Scripts -->
+  <script src="https://kit.fontawesome.com/688346a922.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script defer src="https://www.gstatic.com/firebasejs/7.14.4/firebase-app.js"></script>
+  <script defer src="https://www.gstatic.com/firebasejs/7.14.4/firebase-auth.js"></script>
+
+  <!-- Custom scripts-->
+  <script src="../scripts/main.js"></script>
+  <script src="../scripts/nav-footer-loader.js"></script>
+</head>
+<!-- END OF HEAD-->
+
+<!-- START OF BODY-->
+
+<body>
+  <!-- Dynamicaly loaded navbar-->
+  <div id="comp-nav"></div>
+
+  <!-- Banner Section-->
+  <div class="text-center banner">
+    <div class="col-md-5 mx-auto">
+      <h1 class="display-4 font-weight-normal">Get Involved</h1>
+    </div>
+    <div class="product-device box-shadow d-none d-md-block"></div>
+    <div class="product-device product-device-2 box-shadow d-none d-md-block"></div>
+  </div>
+
+  <!-- Volunteer Message Section-->
+
+  <div class="border" id="volunteer-text">
+    <p>
+      Camp Salvation is staffed 100% by volunteers.
+      From the Directors preparing each week for months before,
+      to the cooks creating each meal, to the helpers cleaning
+      every day, each person is there to give of their time for
+      the glory of God. We would love to have you join our staff.
+    </p>
+    <hr>
+    <p>
+      Because we are licensed as a child care provider by the Colorado
+      Department of Human Services, we do require three references and
+      a background check for all of our staff. Contact us for more information.
+    </p>
+    <hr>
+  </div>
+  <div id="signup-section">
+    <p>
+      If God is calling you to volunteer,
+      please complete the correct application. We would love
+      to serve alongside you!
+    </p>
+    <button type="button" class="btn btn-secondary big-btn"><a id="faq-contact-btn"
+        href="#staff-app">Apply</a></button>
+  </div>
+
+  <!-- Volunteer position section-->
+  <div class="border" id="position-section">
+    <div class="position">
+      <h2>Helper</h2>
+      <p>The foundation of camp! Serving by cleaning,
+        assisting in the kitchen, and anywhere else needed;
+        they help make the camp environment safe, clean, comfortable,
+        and friendly for all.</p>
+    </div>
+    <div class="position">
+      <h2>Counselor</h2>
+      <p>Assigned to a specific cabin, these staff are the direct supervision
+        and leader of campers in their cabin. Responsible for campers’ whereabouts
+        and safety, must be 18 years or older to serve in this position.</p>
+    </div>
+    <div class="position">
+      <h2>Nurse</h2>
+      <p>As the lead medical professional of the week, these staff
+        create a safe environment and address medical issues as needed.
+        As a licensed child care provider, there are requirements that must be
+        met for medical staff at camp, please contact for more information.</p>
+    </div>
+    <div class="position">
+      <h2>Cooks</h2>
+      <p>Meal time is the heart of relationship building at camp.
+        Comfortable food, friendly faces, gracious servers, and sweet
+        conversations all help to build an environment where our campers
+        and our staff feel loved and accepted.</p>
+    </div>
+    <div class="position">
+      <h2>Praise and Worship Team</h2>
+      <p>If you have a passion or gift for music and would like to be a part of
+        the worship team while at camp, we would love to have you involved. This
+        is an additional role, please let your director know if you are interested in
+        helping here as well.</p>
+    </div>
+    <div class="position">
+      <h2>Recreation Director</h2>
+      <p>Helping campers have fun together and make memories, the rec director plans
+        games to help campers break down barriers and build relationships with other campers
+        as well as with staff who could mentor them. This position will require director
+        approval to apply.</p>
+    </div>
+    <div class="position">
+      <h2>Maintenance</h2>
+      <p>Camp activities create some wear and tear on camp facilities. We need help
+        maintaining a safe environment for all.</p>
+    </div>
+  </div>
+
+  <div class="main-content">
+    <div id="staff-app">
+      <div class="border number-icon" style="margin-top: -8rem;">1</div>
+      <h1>Staff Application</h1>
+      <p>Please complete one of the following forms</p>
+      <br>
+      <div id="staff-app-flex">
+        <div class ="staff-app-item">
+          <h1>First Time Staff Member</h1>
+          <p style="padding-left: 2rem; padding-right: 2rem;"> Please fill out the following form if this is your first
+            time
+            applying to
+            volunteer at Camp Salvation
+          </p>
+          <a href="../images/Camp Salvation Initial Staff Application.pdf"
+          download="Camp Salvation Initial Staff Application.pdf">
+          <button type="button" class="btn btn-secondary big-btn" Download>First Time Staff</button></a>
+        </div>
+        <div class ="staff-app-item" >
+          <h1>Returning Staff Member</h1>
+          <p style="padding-left: 2rem; padding-right: 2rem;">Please fill out the following form if you have
+            previously been a volunteer with Camp Salvation
+          </p>
+          <a href="../images/Camp Salvation Annual Staff Application.pdf"
+          download="Camp Salvation Annual Staff Application.pdf">
+          <button type="button" class="btn btn-secondary big-btn" Download>Returning Staff</button></a>
+        </div>
+      </div>
+      <br>
+      <hr>
+      <div class="border number-icon" style="margin-top: -4rem;">2</div>
+      <h1>Staff kid Registration</h1>
+      <p>If you are a staff memeber bringing a child that is not of camper age, please contact Kendra England and fill out the following
+        form. If this does not apply to you, please move on to the next step.
+      </p>
+      <a href="../images/Staff Kid Registration.pdf"
+      download="Staff Kid Registration.pdf">
+      <button type="button" class="btn btn-secondary big-btn" Download>Staff Kid</button></a>
+      <br>
+      <br>
+      <hr>
+      <div class="border number-icon" style="margin-top: -4rem;">3</div>
+      <h1>CBI Finger Prints</h1>
+      <p> All returning and new staff must go through the CBI finger printing process.
+        Please check back in a little bit as we get this information for everyone.
+      </p>
+      <br>
+      <hr>
+      <div class="border number-icon" style="margin-top: -4rem;">4</div>
+      <h1>Staff Training</h1>
+      <p> All returning and new staff members must complete training.
+        Please check back in a little bit as we get this information for everyone.
+      </p>
+    </div>
+    <h1 style="margin-top: 8rem;">
+      If you are interested in volunteering but need more information, please contact us!
+    </h1>
+    <button type="button" class="btn btn-secondary big-btn"><a id="faq-contact-btn" href="contact.html">Contact</a></button>
+  </div>
+
+  <!-- Dynamicaly loaded donate component-->
+  <div id="comp-donate"></div>
+
+  <!-- Dynamicaly loaded footer-->
+  <div id="comp-foot"></div>
+  <!-- END OF BODY-->
+
+</html>

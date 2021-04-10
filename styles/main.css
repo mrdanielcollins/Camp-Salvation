@@ -691,6 +691,28 @@ hr
     padding-right: 1rem;
   }
 
+  .number-icon
+  {
+
+        margin: auto;
+        align-items: center;
+        border-radius: 100%;
+        width: 7rem;
+        height: 7rem;
+        background: lightgray;
+        color: #660000;
+        vertical-align: middle;
+        margin-bottom: 2rem;
+        font-size: 5rem;
+        border-radius:75%;
+  }
+
+  #staff-app-flex
+  {
+    display: flex; 
+    justify-content: space-between;
+  }
+
   #faith-flex
   {
     display: flex;
@@ -740,6 +762,11 @@ hr
     .contact-flex
     {
         display: flex;
+    }
+
+    .staff-app-item
+    {
+        width: 50%;
     }
 
 @media screen and (max-width: 600px)
@@ -838,6 +865,17 @@ hr
 }
 
 @media screen and (max-width: 1000px) {
+
+    #staff-app-flex
+    {
+      display: block
+    }
+
+    .staff-app-item
+    {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
 
     .big-btn
     {

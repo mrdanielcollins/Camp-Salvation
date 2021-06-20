@@ -363,6 +363,22 @@ hr
     border-bottom: solid lightgray;
 }
 
+.position-volunteer
+{  
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    position: relative;
+    border-bottom: solid lightgray;
+}
+
+.header-volunteer
+{
+    font-size: 3rem;
+    text-decoration: none;
+    color: black;
+}
+
 #pricing
 {
     background-color:lightgray;

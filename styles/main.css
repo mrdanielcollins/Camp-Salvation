@@ -785,6 +785,14 @@ hr
         width: 50%;
     }
 
+    .shirt-img
+    {
+        height: 75%; 
+        width: auto; 
+        overflow: hidden
+    }
+    
+
 @media screen and (max-width: 600px)
 {
     #pricing-items

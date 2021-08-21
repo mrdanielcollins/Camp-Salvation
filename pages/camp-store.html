@@ -12,7 +12,7 @@
   <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Courgette&display=swap" rel="stylesheet">
 
   <!-- Custom styles-->
-  <link href="../../styles/main.css" rel="stylesheet">
+  <link href="../styles/main.css" rel="stylesheet">
 
   <!-- CDN Scripts -->
   <script src="https://kit.fontawesome.com/688346a922.js" crossorigin="anonymous"></script>
@@ -49,7 +49,7 @@
     <div class="card-deck">
       <div class="shadow card">
         <div class="shirt-img">
-          <img class="card-img-top" src="../../images/mauve_shirt.jpg" alt="Card image cap">
+          <img class="card-img-top" src="../images/mauve_shirt.jpg" alt="Card image cap">
         </div>
         <div class="card-body" style="padding: 0%;">
           <h2 class="card-title" style="color: #660000">Bella Canvas Arrow</h2>
@@ -64,7 +64,7 @@
       </div>
       <div class="shadow card">
         <div class="shirt-img">
-          <img class="card-img-top" src="../../images/Green_Fire.jpg" alt="Card image cap">
+          <img class="card-img-top" src="../images/Green_Fire.jpg" alt="Card image cap">
         </div>
         <div class="card-body" style="padding: 0%;">
           <h2 class="card-title" style="color: #660000">Camp Fire Green</h2>
@@ -79,7 +79,7 @@
       </div>
       <div class="shadow card">
         <div class="shirt-img">
-          <img class="card-img-top" src="../../images/more_of_him.jpg" alt="Card image cap">
+          <img class="card-img-top" src="../images/more_of_him.jpg" alt="Card image cap">
         </div>
         <div class="card-body" style="padding: 0%;">
           <h2 class="card-title" style="color: #660000">More of Him</h2>
@@ -96,7 +96,7 @@
     <div class="card-deck">
       <div class="shadow card">
         <div class="shirt-img">
-          <img class="card-img-top" src="../../images/gray_long_sleeve.jpg" alt="Card image cap">
+          <img class="card-img-top" src="../images/gray_long_sleeve.jpg" alt="Card image cap">
         </div>
         <div class="card-body" style="padding: 0%;">
           <h2 class="card-title" style="color: #660000">Gray Long Sleeve</h2>
@@ -111,7 +111,7 @@
       </div>
       <div class="shadow card">
         <div class="shirt-img">
-          <img class="card-img-top" src="../../images/white_long_sleeve.jpg" alt="Card image cap">
+          <img class="card-img-top" src="../images/white_long_sleeve.jpg" alt="Card image cap">
         </div>
         <div class="card-body" style="padding: 0%;">
           <h2 class="card-title" style="color: #660000">White Long Sleeve</h2>
@@ -126,7 +126,7 @@
       </div>
       <div class="shadow card">
         <div class="shirt-img" style="position: relative;">
-          <img class="card-img-top" style="position: relative; top: 30%; left: 0%;" src="../../images/small_sticker.jpg"
+          <img class="card-img-top" style="position: relative; top: 30%; left: 0%;" src="../images/small_sticker.jpg"
             alt="Card image cap">
         </div>
         <div class="card-body" style="padding: 0%;">
@@ -142,7 +142,7 @@
       </div>
     </div>
     <hr>
-    <div>
+    <div id="store-form">
       <h1>How do I purchase these items?</h1>
       <p>Please fill out the form below and the Camp Salvation Gift Shop will reach out to you!</p>
       <iframe
@@ -150,6 +150,14 @@
         width="100%" height="7652" frameborder="0" marginheight="0" marginwidth="0" >Loading…</iframe>
     </div>
   </div>
+
+  <script>
+    window.frames[0].contentWindow.document
+      .getElementsByTagNames("form")[0]
+      .onsubmit = function() { 
+          alert("Submit !");
+      }
+  </script>
 
   <!-- Dynamicaly loaded donate component-->
   <div id="comp-donate"></div>

@@ -44,7 +44,7 @@
   </div>
 
   <div class="main-content border">
-    <h1>Summer 2021 Registration</h1>
+    <h1>Summer 2022 Registration</h1>
   </div>
   <div class="border" id="pricing">
     <p>Pricing</p>
@@ -59,72 +59,30 @@
   </div>
   <div class="main-content border">
     <div id="Registration-Form">
-      <h1>Registration Forms</h1>
+      <h1>Before you begin, please ensure that you have the following documents completed and available to upload:</h1>
+      <ul style="text-align: left;">
+        <li>
+          <p><a href="https://drive.google.com/file/d/1um9T5pwmXJCWYURZmcTNcRImfzm-qQGD/view?usp=sharing">Statement of Health</a>: this can be a copy of the campers most recent physical or the linked form,
+            must be within the past 24 months and signed by a health care provider</p>
+        </li>
+        <li>
+          <p><a href="https://drive.google.com/file/d/1OOvx5RHPenmT6Y5MwN9L2xhq_SfSA0bS/view?usp=sharing">Immunization Records</a> on the required form OR the <a href="https://drive.google.com/file/d/1OOvx5RHPenmT6Y5MwN9L2xhq_SfSA0bS/view?usp=sharing">approved Exemption - Certificate</a>
+            (note that either will need signed by a health care provider)</p>
+        </li>
+        <li>
+          <p><a href="https://drive.google.com/file/d/1dazjWzMSzK8GKkFkqbHM3h4MJIl2MiVB/view?usp=sharing">Medical Administration Form</a> (note that this will need signed by a health care provider)</p>
+        </li>
+        <li>
+          <p><a href="https://drive.google.com/file/d/1yT8NjWSzRI9_DGPF7BWfnd41th6iVlPf/view?usp=sharing">Allergy Rescue Medication</a> Self Carry Release</p>
+        </li>
+        <li>
+          <p><a href="https://drive.google.com/file/d/1aEEUg6Fhh6gCcvfkOgS6mmehm6mTVRW9/view?usp=sharing">Asthma Rescue Medication</a> Self Carry Release</p>
+        </li>
+      </ul>
 
-      <button type="button" class="btn btn-secondary big-btn" style="color: white;" data-toggle="modal"
-        data-target="#exampleModal" disabled>
-        Download Forms
+      <button type="button" class="btn btn-secondary big-btn" style="margin-top: 2rem;">
+        <a style="color: white" href="https://hipaa.jotform.com/220238165951152">Click Here to Register</a>
       </button>
-
-      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h1 class="modal-title" id="exampleModalLabel" style="color: #660000;">By clicking download, I acknowledge
-                that I have read and
-                understand the following policies of Camp Salvation:<br>
-                (must scroll to the bottom to download)</h1>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <div id="agreement">
-                Campers will not be considered fully registered until all paperwork has been received by Camp
-                Salvation, no later than two weeks prior to arrival.
-                <br>
-                <br>
-                Two COVID-19 symptom tracking forms need to be presented upon arrival
-                <br>
-                <br>
-                Registrations must be postmarked by May 15th to receive the pre-registration discount. It is advised
-                that you call for bed availability after that date.
-                <br>
-                <br>
-                Campers may only register for one week.
-                <br>
-                <br>
-                Cancellations made more than two weeks before the date registered will be fully refunded. Any
-                cancellation after that time will only be refunded for medical reasons and must be accompanied by a
-                letter from the attending physician.
-                <br>
-                <br>
-                Camp Salvation reserves the right to dismiss any camper whom the staff believes presents a safety
-                concern, medial risk, is disruptive, or otherwise conducts themselves in a manner detrimental to the
-                camp community, no refund will be issued in the case of dismissals.
-                <br>
-                <br>
-                Rules for acceptance are the same for everyone without regard to race, color, nationality, gender,
-                religion, or disability. Camp Salvation is not a treatment center and all our staff are volunteers. For
-                the safety and well-being of our campers we do reserve the right to refuse admission to our programs, in
-                appropriate cases; per the General Rules for Child Care Facilities 7.701.14 and 7.702.61c. Please
-                contact us with questions or concerns.
-              </div>
-            </div>
-            <div class="modal-footer" style="justify-content: center;">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <a href="../images/Camp Salvation Camper Registration.pdf"
-                download="Camp Salvation Camper Registration.pdf">
-                <button id="download-btn" type="button" class="btn btn-secondary" disabled>Download</button></a>
-              <p style="color: #660000">We will continue to update our covid-19 protocols as we receive information.
-                Pease check back here or
-                follow us on social media for updates. Thank you for your patience as we continue to adapt.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
     </div>
   </div>
 
@@ -134,15 +92,5 @@
   <!-- Dynamicaly loaded footer-->
   <div id="comp-foot"></div>
   <!-- END OF BODY-->
-
-  <script>
-    $('.modal-body').scroll(function () {
-      const padding = 100;
-      var boxHeight = $('#agreement').height() - padding;
-      var bottomHeight = ($(this).scrollTop() + $(this).height());
-      var disable = boxHeight > bottomHeight;
-      $('#download-btn').prop('disabled', disable);
-    });
-  </script>
 
 </html>

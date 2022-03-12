@@ -632,6 +632,14 @@ hr
       margin-top: 2rem;
   }
 
+  .single-card-third
+  {
+    margin-left: auto;
+     margin-right: auto; 
+     width: 33%; 
+     flex: none;
+  }
+
   .single-card
   {
     width: 50%; 
@@ -884,6 +892,11 @@ hr
       width: 100%; 
       margin: auto; 
       margin-top: 2rem;
+    }
+
+    .single-card-third
+    {
+        width: auto;
     }
 
 }

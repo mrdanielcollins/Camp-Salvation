@@ -1,65 +1,8 @@
-<!-- Donate and Join Email list component-->
-
-
-<!--- TODO: Add back later
-<div class="Flex-Container bg-dark">
-
-  <!-- email list container
-  <div id="newsletter-box">
-    <div id="alert-box" class="alert alert-secondary alert-dismissible show fade fixed-top"
-      style="margin-right: 25%;margin-left: 25%;" role="alert">
-      Thanks for joining the camp Salavation email list!
-      <button type="button" class="close" aria-label="Close">
-        &times;</span>
-      </button>
-    </div>
-    <h1>Join Camp Salvation's Email List</h1>
-    <form id="email-box">
-      <div class="form-group form-inline email">
-        <input id='email-item' type="email" class="form-control" aria-describedby="emailHelp"
-          placeholder="name@example.com" required />
-        <button id="email-submit" class="raise" type="submit" class="btn btn-light" style="font-size: 1.2rem !important;">Submit</button>
-      </div>
-    </form>
-  </div>
-
-  <!--break
-  <hr>
-
-  <!-- donate box container
+ <!-- Dynamicaly loaded donate component-->
+ <div class="Flex-Container bg-dark">
   <div id="donate-box">
     <h1>Support Camp Salvation by Donating</h1>
-    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-      <input type="hidden" name="cmd" value="_donations" />
-      <input type="hidden" name="business" value="" />
-      <input type="hidden" name="currency_code" value="USD" />
-      <input class="raise" type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0"
-        name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button"
-        style="width:6rem;" />
-      <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
-    </form>
+    <button type="button" class="btn btn-secondary big-btn"><a style="color: white;"
+      href="https://hipaa.jotform.com/220804989696171">Donate</a></button>
   </div>
 </div>
-
-<script>
-
-$('.alert').hide();
-
-  $('.close').click(function () {
-    $('.alert').hide();
-  })
-
-  $("#email-box").submit(function (event) {
-    // Call function to add email
-    let email = document.getElementById('email-item').value;
-    addEmail(email);
-
-    $('.alert').show()
-
-    // Clear out data
-    document.getElementById('email-item').value = '';
-    event.preventDefault();
-  });
-</script>
-
--->
